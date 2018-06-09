@@ -44,6 +44,7 @@ addOne = add 1
 data Temp where
   Cold :: Temp
   Hot :: Temp
+    deriving Show
 -- data Season = Winter | Spring | Summer | Fall deriving (Show,Enum)
 data Season where
   Winter :: Season
